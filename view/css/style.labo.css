@@ -1,0 +1,21 @@
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.w-45 {
+    width: 50%;
+}
+.danger-default-btn{
+    color:red;
+}
+
+@media (max-width: 800px) {
+    .d-flex {
+        flex-direction: column;
+    }
+
+    .w-45 {
+        width: 100%;
+    }
+}
